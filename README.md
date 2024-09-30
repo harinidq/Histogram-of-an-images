@@ -34,7 +34,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Load the color image
-image = cv2.imread('gems.jpg')
+image = cv2.imread('flower.jpg')
 
 # Convert the image to grayscale
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
